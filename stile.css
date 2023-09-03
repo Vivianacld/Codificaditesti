@@ -1,0 +1,167 @@
+/* Reset dei margini e dei padding */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* Stile generale del corpo della pagina */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #f9d8e8;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Titolo nell'header */
+h1 {
+  color: #e65285;
+}
+
+/* Navigazione */
+.navMenu {
+  background-color: #f9d8e8;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.navMenu ul {
+  list-style: none;
+}
+
+.navMenu ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navMenu ul li a {
+  color: #e65285;
+  text-decoration: none;
+}
+
+/* Contenitore principale */
+#info {
+  background-color: #f9f3f8;
+  padding: 20px;
+}
+
+/* Stile dell'articolo */
+article {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: 10px auto 10px auto;
+}
+
+/* Testo affiancato alla fotografia */
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img img {
+  max-width: 100%;
+  border-radius: 10px;
+  /* margin-right: 20px; */
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
+.text {
+  flex: 1;
+  width: 95%;
+}
+
+/* Stili per i paragrafi del testo */
+.text p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+gap{
+  display: none;
+  background-color: #e65285;
+}
+
+del{
+  background-color: rgb(216, 179, 245);
+  display: none;
+}
+
+add{
+    background-color: rgb(179, 245, 185);
+    display: none;
+}
+
+#info > article:nth-child(2) > ul > li:nth-child(1) > span{
+  background-color: #e65285;
+  margin-right: 5px;
+}
+
+#info > article:nth-child(2) > ul > li:nth-child(2) > span{
+  background-color: rgb(216, 179, 245);
+  margin-right: 5px;
+}
+
+#info > article:nth-child(2) > ul > li:nth-child(3) > span{
+  background-color: rgb(179, 245, 185);
+  margin-right: 5px;
+}
+
+#info > article:nth-child(2) > ul > li > span{
+  padding: 5px;
+}
+
+
+button {
+    margin: 0.2rem;
+    background-color: #e65285;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+}
+
+#info > article:nth-child(2) > ul > li{
+  margin: 12px 2px 6px 2px;
+}
+/* Stili per i titoli */
+h2 {
+  color: #e65285;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Riferimenti alla fine della pagina */
+#append {
+  background-color: #f9d8e8;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Stili per i paragrafi dei riferimenti */
+#append p {
+  margin-bottom: 5px;
+}
+
+/* Stili per il titolo dei riferimenti */
+#about {
+  color: #e65285;
+  margin-bottom: 10px;
+}

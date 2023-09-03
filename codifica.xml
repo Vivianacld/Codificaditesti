@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- Prologo -->
+
+<!-- Body -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<!-- Contiene descrizione del file  -->
+			<titleStmt>
+				<title xml:lang="it">Diari di Emanuele Artom</title>
+				<author ref="EA">Emanuele Artom</author>
+				<respStmt>
+					<!-- Contiene responsabili del contenuto -->
+					<resp>Trascrizione a cura di:</resp>
+					<name ref="VC">Viviana Calderisi</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<!-- Gruppo di informazioni relative a un'edizione di un testo -->
+				<edition>
+					Edizione Digitale -
+					<date when="09-2023">Settembre 2023</date>
+				</edition>
+				<respStmt>
+					<resp>Progetto coordinato da:</resp>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+				</respStmt>
+				<respStmt>
+					<resp>Codifica a cura di:</resp>
+					<name xml:id="VC">Viviana Calderisi</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability status="free">
+					<p>Opera ad accesso libero</p>
+				</availability>
+				<date when="2023"> 2023 </date>
+			</publicationStmt>
+
+			<sourceDesc>
+				<!-- Individua la fonte primaria -->
+				<msDesc>
+					<!-- Specifica per il manoscritto -->
+					<msIdentifier>
+						<country key="IT">Italia</country>
+						<settlement>Milano</settlement>
+						<repository role="library">Centro di Documentazione Ebraica Contemporanea - CDEC</repository>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="it">
+								<persName ref="EA">Emanuele Artom</persName>
+							</author>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="folio">
+							<supportDesc material="paper">
+								<support>Fogli di carta.</support>
+								<extent>172 pagine + 2 pagine iniziali che contengono un appunto della signora Amalia Artom sul diario del figlio Emanuele.</extent>
+								<condition>Le pagine sono in buono stato, non presentano danni rilevanti, ci sono poche cancellature. </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" ruledLines="20">
+									<p>Le pagine sono costituite in media da 20 righe, a volte si trovano aggiunte e cancellature </p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<p>Il testo è interamente scritto a mano. </p>
+						</handDesc>
+						<typeDesc>
+							<p>Il testo è scritto in corsivo e acune volte può essere difficile da comprendere. 
+								Essendo degli appunti presentano cancellature e aggiunte, inoltre non è presente una copertina (non essendo destinata alla pubblicazione). </p>
+						</typeDesc>
+					</physDesc>
+					<history>
+						<origin notAfter="04-1944">
+							<p>
+								Si tratta di diari scritti da Emanuele Artom con l'aggiunta di due pagine iniziali che contengono la lettera originale della madre Amalia
+								 riportante l'epigrafe "alla mia morte questo plico deve essere consegnato al Centro di documentazione ebraica [..] esso ha un grande valore storico [..]".
+								Sono composti da due parti distinte. La prima riguarda il periodo che va dal 1 gennaio 1940 al 10 settembre 1943, ed è una fonte di notizie sulla vita culturale torinese di quegli anni e sullo sviluppo della persecuzione razziale.
+								La seconda parte, qui conservata e descritta, che va dal novembre 1943 al 23 febbraio 1944 riguarda invece l'esperienza partigiana di Emanuele Artom.
+							</p>
+						</origin>
+						<acquisition>
+							<p>
+								Le carte del fondo Emanuele Artom sono state donate alla Fondazione CDEC su espressa volontà della madre Amalia Segre Artom (cfr. busta 1, fasc. 9).
+							</p>
+						</acquisition>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italiano</language>
+			</langUsage>
+			<textDesc>
+				<channel mode="w" />
+				<constitution type="single" />
+				<derivation type="original" />
+				<domain type="education" />
+				<factuality type="fact" />
+				<interaction type="none" active="singular" passive="self" />
+				<preparedness type="none" />
+				<purpose type="inform" degree="high" />
+			</textDesc>
+			<settingDesc>
+				<setting>
+					<name>
+						Testi registrati dal Centro di Documentazione Ebraica Contemporanea - CDEC
+						<placeName>Milano</placeName>,
+						<country>Italia</country>.
+					</name>
+					<time>
+						<date when="1943-1944">1943-1944</date>
+					</time>
+				</setting>
+			</settingDesc>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" xml:id="Pag67">
+			<graphic url='Pag67.jpeg' width='748.72728px' height='1023.72728px' />
+			<zone ulx="96" uly="80" lrx="709" lry="111" xml:id="P67Riga1" />
+			<zone ulx="93" uly="114" lrx="672" lry="146" xml:id="P67Riga2" />
+			<zone ulx="92" uly="188" lrx="703" lry="225" xml:id="P67Riga3"/>
+			<zone ulx="91" uly="226" lrx="669" lry="265" xml:id="P67Riga4"/>
+			<zone ulx="92" uly="266" lrx="696" lry="302" xml:id="P67Riga5"/>
+			<zone ulx="92" uly="305" lrx="672" lry="342" xml:id="P67Riga6"/>
+			<zone ulx="92" uly="345" lrx="685" lry="381" xml:id="P67Riga7"/>
+			<zone ulx="89" uly="380" lrx="681" lry="421" xml:id="P67Riga8"/>
+			<zone ulx="91" uly="419" lrx="667" lry="457" xml:id="P67Riga9"/>
+			<zone ulx="91" uly="458" lrx="669" lry="494" xml:id="P67Riga10"/>
+			<zone ulx="89" uly="496" lrx="669" lry="536" xml:id="P67Riga11"/>
+			<zone ulx="91" uly="538" lrx="676" lry="574" xml:id="P67Riga12"/>
+			<zone ulx="89" uly="577" lrx="670" lry="614" xml:id="P67Riga13"/>
+			<zone ulx="90" uly="616" lrx="668" lry="652" xml:id="P67Riga14"/>
+			<zone ulx="91" uly="654" lrx="670" lry="692" xml:id="P67Riga15" />
+			<zone ulx="89" uly="690" lrx="671" lry="730" xml:id="P67Riga16"/>
+			<zone ulx="90" uly="734" lrx="668" lry="771" xml:id="P67Riga17"/>
+			<zone ulx="89" uly="772" lrx="691" lry="810" xml:id="P67Riga18"/>
+			<zone ulx="90" uly="810" lrx="698" lry="850" xml:id="P67Riga19"/>
+			<zone ulx="87" uly="850" lrx="710" lry="887" xml:id="P67Riga20" />
+			<zone ulx="87" uly="889" lrx="667" lry="924" xml:id="P67Riga21"/>
+			<zone ulx="88" uly="927" lrx="668" lry="966" xml:id="P67Riga22"/>
+		</surface>
+	</facsimile>
+	<facsimile>
+		<surface n="2" xml:id="Pag68">
+			<graphic url='PAG68.jpg' width='752.4px' height='1024.4px' />
+			<zone ulx="88" uly="103" lrx="665" lry="141" xml:id="P68Riga1"/>
+			<zone ulx="87" uly="141" lrx="664" lry="182" xml:id="P68Riga2" />
+			<zone ulx="88" uly="182" lrx="671" lry="220" xml:id="P68Riga3"/>
+			<zone ulx="85" uly="221" lrx="669" lry="260" xml:id="P68Riga4"/>
+			<zone ulx="85" uly="259" lrx="667" lry="299" xml:id="P68Riga5"/>
+			<zone ulx="86" uly="298" lrx="671" lry="335" xml:id="P68Riga6"/>
+			<zone ulx="86" uly="336" lrx="692" lry="375" xml:id="P68Riga7"/>
+			<zone ulx="88" uly="376" lrx="667" lry="414" xml:id="P68Riga8"/>
+			<zone ulx="89" uly="417" lrx="679" lry="451" xml:id="P68Riga9"/>
+			<zone ulx="87" uly="453" lrx="690" lry="491" xml:id="P68Riga10"/>
+			<zone ulx="87" uly="493" lrx="668" lry="530" xml:id="P68Riga11" />
+			<zone ulx="87" uly="531" lrx="665" lry="568" xml:id="P68Riga12"/>
+			<zone ulx="87" uly="568" lrx="666" lry="607" xml:id="P68Riga13"/>
+			<zone ulx="86" uly="610" lrx="666" lry="646" xml:id="P68Riga14"/>
+			<zone ulx="87" uly="644" lrx="666" lry="686" xml:id="P68Riga15"/>
+			<zone ulx="87" uly="685" lrx="667" lry="725" xml:id="P68Riga16"/>
+			<zone ulx="84" uly="725" lrx="664" lry="761" xml:id="P68Riga17"/>
+			<zone ulx="85" uly="764" lrx="693" lry="802" xml:id="P68Riga18"/>
+			<zone ulx="84" uly="804" lrx="663" lry="842" xml:id="P68Riga19"/>
+			<zone ulx="85" uly="842" lrx="664" lry="880" xml:id="P68Riga20"/>
+			<zone ulx="86" uly="879" lrx="669" lry="920" xml:id="P68Riga21"/>
+		</surface>
+	</facsimile>
+	<facsimile>
+		<surface n="3" xml:id="Pag69">
+			<graphic url='PAG69.jpg' width='749.4px' height='1024.4px' />
+			<zone ulx="79" uly="73" lrx="694" lry="100" xml:id="P69Riga1"/>
+			<zone ulx="82" uly="99" lrx="665" lry="142" xml:id="P69Riga2"/>
+			<zone ulx="83" uly="138" lrx="663" lry="179" xml:id="P69Riga3"/>
+			<zone ulx="83" uly="179" lrx="661" lry="218" xml:id="P69Riga4"/>
+			<zone ulx="84" uly="220" lrx="661" lry="257" xml:id="P69Riga5"/>
+			<zone ulx="82" uly="257" lrx="663" lry="294" xml:id="P69Riga6"/>
+			<zone ulx="83" uly="297" lrx="663" lry="334" xml:id="P69Riga7"/>
+			<zone ulx="83" uly="335" lrx="663" lry="374" xml:id="P69Riga8"/>
+			<zone ulx="84" uly="374" lrx="661" lry="412" xml:id="P69Riga9"/>
+			<zone ulx="83" uly="414" lrx="687" lry="452" xml:id="P69Riga10"/>
+			<zone ulx="83" uly="454" lrx="664" lry="489" xml:id="P69Riga11"/>
+			<zone ulx="82" uly="491" lrx="695" lry="530" xml:id="P69Riga12"/>
+			<zone ulx="85" uly="530" lrx="665" lry="568" xml:id="P69Riga13"/>
+			<zone ulx="84" uly="569" lrx="667" lry="607" xml:id="P69Riga14"/>
+			<zone ulx="87" uly="607" lrx="664" lry="648" xml:id="P69Riga15"/>
+			<zone ulx="86" uly="649" lrx="666" lry="686" xml:id="P69Riga16"/>
+			<zone ulx="86" uly="686" lrx="665" lry="723" xml:id="P69Riga17"/>
+			<zone ulx="84" uly="726" lrx="667" lry="762" xml:id="P69Riga18"/>
+			<zone ulx="86" uly="764" lrx="667" lry="800" xml:id="P69Riga19"/>
+			<zone ulx="87" uly="804" lrx="665" lry="841" xml:id="P69Riga20"/>
+			<zone ulx="90" uly="841" lrx="667" lry="881" xml:id="P69Riga21" />
+			<zone ulx="87" uly="880" lrx="676" lry="924" xml:id="P69Riga22"/>
+			<zone ulx="488" uly="923" lrx="687" lry="973" xml:id="P69Riga23"/>
+		</surface>
+	</facsimile>
+
+	<text xml:lang="it" xml:id="Pag67-68-69" subtype="manuscript">
+		<body>
+			<div type="pagina" n="67">
+				<pb n="67" facs="#P67Intera" />
+				<!-- Inizio pagina -->
+				<ab type="pericope" n="1" xml:id="Pag67Pericope1">
+					<lb xml:id="P67R1" n="1" facs="#P67Riga1" />
+					con chi siamo, contro chi siamo, che pongono
+					
+					<lb xml:id="P67R2" n="2" facs="#P67Riga2" />
+					in rilievo i nostri contrasti con i comunisti
+
+				</ab>
+				<ab type="pericope" n="2" xml:id="Pag67Pericope2">
+
+					<lb xml:id="P67R3" n="3" facs="#P67Riga3" />
+ 
+					Intanto la guerra si prolunga: <del rend="overstrike">fino a</del>
+					<add place="above">prima di</add> settembre 
+			
+					<lb xml:id="P67R4" n="4" facs="#P67Riga4" />
+						non c'è da sperare che finisca e a settembre
+						
+					<lb xml:id="P67R5" n="5" facs="#P67Riga5" />
+						forse saremo morti: si dice che è bello morire
+						
+					<lb xml:id="P67R6" n="6" facs="#P67Riga6" />
+						per una grande causa, ma ieri pensando
+						
+					<lb xml:id="P67R7" n="7" facs="#P67Riga7" />
+						A Sergio D. più pareva <del rend="overstrike">che</del>
+					<add place="above">amarissimo</add>  vedere la vittoria
+						
+					<lb xml:id="P67R8" n="8" facs="#P67Riga8" />
+						sicura, ma sentire di non poterla affer-
+						
+					<lb xml:id="P67R9" n="9" facs="#P67Riga9" />
+						rare e godere perché la morte ci <del rend="overstrike">porta la</del>
+
+					<lb xml:id="P67R10" n="10" facs="#P67Riga10" />
+						strappa via e ci porta lontano.
+				</ab>
+				<ab type="pericope" n="3" xml:id="Pag67Pericope3">
+
+					<lb xml:id="P67R11" n="11" facs="#P67Riga11" />
+						Domani scenderò a Sangone farò mez-
+					<lb xml:id="P67R12" n="12" facs="#P67Riga12" />
+						z'ora a piedi e giungerò Moncalieri,
+					
+					<lb xml:id="P67R13" n="13" facs="#P67Riga13" />
+					di qui prenderò il treno per Chieri,
+					
+					<lb xml:id="P67R14" n="14" facs="#P67Riga14" />
+					evitando Torino.
+				</ab>
+				<ab type="pericope" n="3" xml:id="Pag67Pericope4">
+					Se tutto va bene, <del rend="overstrike">al</del>
+
+					<lb xml:id="P67R15" n="15" facs="#P67Riga15" />
+					per le 10 sarò a casa.
+				</ab>
+				<ab type="pericope" n="4" xml:id="Pag67Pericope5">
+
+					<lb xml:id="P67R16" n="16" facs="#P67Riga16" />
+					Anzi, mi pare ormai più <gap reason="illegible" atLeast="6" atMost="8" unit="character" />
+
+				<lb xml:id="P67R17" n="17" facs="#P67Riga17" />
+					della precedente. 
+					
+			</ab>
+
+			<ab type="pericope" n="4" xml:id="Pag67Pericope6">
+					L'instaurazione della 
+				
+				<lb xml:id="P67R18" n="18" facs="#P67Riga18" />
+					dittatura proletaria aprirebbe oggi ancora
+					
+				<lb xml:id="P67R19" n="19" facs="#P67Riga19" />
+					una volta la <gap quantity="2" unit="chars" reason="illegible"/>
+ alla peggiore delle 
+			
+			<lb xml:id="P67R20" n="20" facs="#P67Riga20" />
+					reazioni. 
+		</ab>
+	</div>
+
+	<div type="pagina" n="68">
+		<pb n="68" facs="#P68Intera" />
+		<!-- Inizio pagina -->
+		<ab type="pericope" n="1" xml:id="Pag68Pericope1">
+
+			<lb xml:id="P68R1" n="1" facs="#P68Riga1" />
+					Voglio scrivere poche parole prima di <del rend="overstrike">parl</del>
+
+			<lb xml:id="P68R2" n="2" facs="#P68Riga2" />
+					andare a letto;
+		</ab>
+		<ab type="pericope" n="2" xml:id="Pag68Pericope2">
+					a letto con le coperte in una 
+					
+			<lb xml:id="P68R3" n="3" facs="#P68Riga3" />
+					camera con la luce elettrica.
+		</ab>
+
+		<ab type="pericope" n="3" xml:id="Pag68Pericope3">
+					Lussi inauditi.
+		</ab>
+		<ab type="pericope" n="4" xml:id="Pag68Pericope4">
+
+			<lb xml:id="P68R4" n="4" facs="#P68Riga4" />
+					Stamattina partirò alle 4 per casa.		
+				
+		</ab>
+		<ab type="pericope" n="5" xml:id="Pag68Pericope5">
+					Infatti, sto
+			<lb xml:id="P68R5" n="5" facs="#P68Riga5" />
+					forse diventando una donna.
+		</ab>
+		<ab type="pericope" n="6" xml:id="Pag68Pericope6">
+					Un biglietto
+			<lb xml:id="P68R6" n="6" facs="#P68Riga6" />
+
+					da T. P. mi permetterà il trasferimento presto
+		
+		</ab>
+		<ab type="pericope" n="8" xml:id="Pag68Pericope7">
+			<lb xml:id="P68R7" n="7" facs="#P68Riga7" />
+
+					Mi spiace lasciare G, ma per il resto sono con-
+			<lb xml:id="P68R8" n="8" facs="#P68Riga8" />
+					tento.
+		</ab>
+		<ab type="pericope" n="8" xml:id="Pag68Pericope8">
+					Qui facevo poco.
+		</ab>
+		<ab type="pericope" n="9" xml:id="Pag68Pericope9">
+					Vado a casa a chie-
+			<lb xml:id="P68R9" n="9" facs="#P68Riga9" />
+					dere a papà se vuole sostituirmi. 
+		</ab>
+		<ab type="pericope" n="10" xml:id="Pag68Pericope10">
+					La fami-
+			<lb xml:id="P68R10" n="10" facs="#P68Riga10" />
+					 -miglia si apprezza quando se ne è lontani
+			<lb xml:id="P68R11" n="11" facs="#P68Riga11" />
+					 e sono contento di passare qualche ora a 
+			<lb xml:id="P68R12" n="12" facs="#P68Riga12" />
+					 casa.
+		</ab>
+		<ab type="pericope" n="11" xml:id="Pag68Pericope11">
+					Vado incontro ad un periodo di 
+			<lb xml:id="P68R13" n="13" facs="#P68Riga13" />
+					 pericoli gravi.
+		</ab>
+		<ab type="pericope" n="12" xml:id="Pag68Pericope12">
+					Il generale tedesco ha 
+			<lb xml:id="P68R14" n="14" facs="#P68Riga14" />
+			<gap quantity="8" unit="chars" reason="illegible"/>
+ la repressione dei partigiani.
+		</ab>
+		<ab type="pericope" n="13" xml:id="Pag68Pericope13">
+					 A Fermo <gap quantity="8" unit="chars" reason="illegible"/>
+ pare ci sia stata bat-
+		<lb xml:id="P68R15" n="15" facs="#P68Riga15" />
+					 -taglia. 
+	</ab>
+	<ab type="pericope" n="14" xml:id="Pag68Pericope14">
+					 150 morti tedeschi, 92 nostri e 
+		<lb xml:id="P68R16" n="16" facs="#P68Riga16" />
+					 18 prigionieri impiccati, se è vero.
+	</ab>
+	<ab type="pericope" n="15" xml:id="Pag68Pericope15">
+					Stamane
+		<lb xml:id="P68R17" n="17" facs="#P68Riga17" />
+					 si diceva che le SS avessero fatto una puntata 
+		<lb xml:id="P68R18" n="18" facs="#P68Riga18" />
+					  a Torre Pellice, ma non è vero.
+	</ab>
+	<ab type="pericope" n="16" xml:id="Pag68Pericope16">
+					Oggi ho 
+		<lb xml:id="P68R19" n="19" facs="#P68Riga19" />
+					 conosciuto la mia segretaria, che dovrò
+		<lb xml:id="P68R20" n="20" facs="#P68Riga20" />
+					  abbandonare presto e forse cederò a papà.
+	</ab>
+</div>
+<div type="pagina" n="69">
+	<pb n="69" facs="#P69Intera" />
+	<!-- Inizio pagina -->
+	<ab type="pericope" n="1" xml:id="Pag69Pericope1">
+		<lb xml:id="P69R1" n="1" facs="#P69Riga1" />
+					Dicono che abbia aderito al Comunismo perchè innamo-
+		<lb xml:id="P69R2" n="2" facs="#P69Riga2" />
+					-rato di un <gap quantity="4" unit="chars" reason="illegible" />
+              : quando questi la rimproveraravano 
+	<lb xml:id="P69R3" n="3" facs="#P69Riga3" />
+					perchè stava a letto fino alle 9 invece che com-
+	<lb xml:id="P69R4" n="4" facs="#P69Riga4" />
+					 piere il lavoro di partito, rispondeva: se fossi
+	<lb xml:id="P69R5" n="5" facs="#P69Riga5" />
+					andata a letto con te, non mi diresti nulla.
+</ab>
+<ab type="pericope" n="2" xml:id="Pag69Pericope2">
+	<lb xml:id="P69R6" n="6" facs="#P69Riga6" />
+    Ora pare una ragazza comune, una specie di 
+	
+	<lb xml:id="P69R7" n="7" facs="#P69Riga7" />
+					dattilografa.
+</ab>
+<ab type="pericope" n="3" xml:id="Pag69Pericope3">
+					Le raccontai che la prima 
+	<lb xml:id="P69R8" n="8" facs="#P69Riga8" />
+					notte sentendo del rumore mi svegliai con 
+	<lb xml:id="P69R9" n="9" facs="#P69Riga9" />
+					l'idea: ci sono i tedeschi. 
+</ab>
+<ab type="pericope" n="4" xml:id="Pag69Pericope4">
+					Poi, siccome il ru-
+	<lb xml:id="P69R10" n="10" facs="#P69Riga10" />
+					-more veniva dalla stufa mi corressi: i Tedeschi 
+	<lb xml:id="P69R11" n="11" facs="#P69Riga11" />
+					non vanno dentro la stufa, quindi sono 
+	<lb xml:id="P69R12" n="12" facs="#P69Riga12" />
+					i topi, allora invece di ridere mi dichiarò 
+	<lb xml:id="P69R13" n="13" facs="#P69Riga13" />
+					di non voler dormire in una camera con 
+	<lb xml:id="P69R14" n="14" facs="#P69Riga14" />
+					topi e per persuaderla a fermarsi dovetti 
+	<lb xml:id="P69R15" n="15" facs="#P69Riga15" />
+					spiegarle che le campagne comuniste non 
+	<lb xml:id="P69R16" n="16" facs="#P69Riga16" />
+					hanno il diritto di aver paura dei topi,
+	<lb xml:id="P69R17" n="17" facs="#P69Riga17" />
+					se no non sarebbero come i soldati, che 
+	<lb xml:id="P69R18" n="18" facs="#P69Riga18" />
+					non possono rifiutarsi di andare in un 
+	<lb xml:id="P69R19" n="19" facs="#P69Riga19" />
+				   posto perchè ci sono i topi.
+</ab>
+<ab type="pericope" n="5" xml:id="Pag69Pericope5">
+     Pare che il dissidio fra P. d'A. e partito
+	<lb xml:id="P69R21" n="21" facs="#P69Riga21" />
+	<gap quantity="4" unit="chars" reason="illegible"/>
+ 
+	 si accentui: ne è prova che ha <del rend="overstrike">nno</del> ri-
+	<lb xml:id="P69R22" n="22" facs="#P69Riga22" />
+      stampato la dichiarazione:<del rend="overstrike">con</del> chi siamo.
+</ab>
+<ab type="pericope" n="6" xml:id="Pag69Pericope6">
+	<lb xml:id="P69R23" n="23" facs="#P69Riga23" />
+     (2 pag. prima)
+</ab>
+</div>
+</body>
+
+<back>
+<!-- Appendice contentente elementi vari -->
+<div type="appendice">
+
+
+<!-- Riferimenti bibiografici -->
+<listBibl>
+	<bibl xml:id="GSLib" xml:lang="it">
+		<author ref="#GS">
+			<forename>Guri</forename>
+			<surname>Schwarz</surname>
+		</author>
+		<title>Diari di un partigiano ebreo
+		</title>
+		<pubPlace ref="#torino">
+			<placeName ref="#torino">Torino</placeName>
+		</pubPlace>
+		<publisher>Bollati Boringhieri</publisher>
+		<date when="2008">2008</date>
+	</bibl>
+
+	<bibl xml:id="ACLib">
+		<author xml:id="AlbertoC">
+			<forename>Alberto</forename>
+			<surname>Cavaglion</surname>
+		</author>
+		<title type="main" level="m">La moralità armata</title>
+		<title type="sub">Studi su Emanuele Artom </title>
+		<pubPlace>
+			<placeName ref="#milano">Milano</placeName>
+		</pubPlace>
+		<publisher>Franco Angeli</publisher>
+		<date when="1993">1993</date>
+
+	</bibl>
+	<bibl xml:id="PELib" xml:lang="it">
+		<author ref="PaolaDB">
+			<forename>Paola</forename>
+			<surname>De Benedetti</surname>
+		</author>
+		<author ref="EloisaR">
+			<forename>Eloisa</forename>
+			<surname>Ravenna</surname>
+		</author>
+		<title> Emanuele Artom, Diari</title>
+		<pubPlace ref="#milano">
+			Milano
+		</pubPlace>
+
+		<date when="1966">1966</date>
+
+
+	</bibl>
+	<bibl xml:id="BTLib">
+		<author xml:id="BenvenutaT">
+			<forename>Benvenuta</forename>
+			<surname>Treves</surname>
+		</author>
+		<title type="main" level="m">Tre vite dall'ultimo '800 alla metà del '900</title>
+		<title type="sub">Studi e memorie di Emilio, Emanuele, Ennio Artom. </title>
+		<pubPlace>
+			<placeName ref="#firenze">Firenze</placeName>
+		</pubPlace>
+		<publisher>Casa editrice Israel</publisher>
+		<date when="1954">1954</date>
+
+
+	</bibl>
+</listBibl>
+
+<listPlace>
+	<place xml:id="milano">
+		<placeName ref="https://it.wikipedia.org/wiki/Milano">Milano</placeName>
+		<settlement type="region">Lombardia</settlement>
+		<country>Italia</country>
+	</place>
+	<place xml:id="torino">
+		<placeName ref="https://it.wikipedia.org/wiki/Torino">Torino</placeName>
+		<settlement type="region">Piemonte</settlement>
+		<country>Italia</country>
+	</place>
+	<place xml:id="firenze">
+		<placeName ref="https://it.wikipedia.org/wiki/Firenze">Firenze</placeName>
+		<settlement type="region">Toscana</settlement>
+		<country>Italia</country>
+	</place>
+</listPlace>
+
+
+</div>
+</back>
+</text>
+</TEI>		
