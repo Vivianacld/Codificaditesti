@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="stile.xsl"?>
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
-<!-- Prologo -->
 
-<!-- Body -->
+
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
-			<!-- Contiene descrizione del file  -->
 			<titleStmt>
 				<title xml:lang="it">Diari di Emanuele Artom</title>
 				<author ref="EA">Emanuele Artom</author>
 				<respStmt>
-					<!-- Contiene responsabili del contenuto -->
+					
 					<resp>Trascrizione a cura di:</resp>
 					<name ref="VC">Viviana Calderisi</name>
 				</respStmt>
 			</titleStmt>
 			<editionStmt>
-				<!-- Gruppo di informazioni relative a un'edizione di un testo -->
+				
 				<edition>
 					Edizione Digitale -
 					<date when="09-2023">Settembre 2023</date>
@@ -42,9 +41,9 @@
 			</publicationStmt>
 
 			<sourceDesc>
-				<!-- Individua la fonte primaria -->
+				
 				<msDesc>
-					<!-- Specifica per il manoscritto -->
+					
 					<msIdentifier>
 						<country key="IT">Italia</country>
 						<settlement>Milano</settlement>
@@ -210,7 +209,7 @@
 		<body>
 			<div type="pagina" n="67">
 				<pb n="67" facs="#P67Intera" />
-				<!-- Inizio pagina -->
+				
 				<ab type="pericope" n="1" xml:id="Pag67Pericope1">
 					<lb xml:id="P67R1" n="1" facs="#P67Riga1" />
 					con chi siamo, contro chi siamo, che pongono
@@ -294,7 +293,7 @@
 
 	<div type="pagina" n="68">
 		<pb n="68" facs="#P68Intera" />
-		<!-- Inizio pagina -->
+	
 		<ab type="pericope" n="1" xml:id="Pag68Pericope1">
 
 			<lb xml:id="P68R1" n="1" facs="#P68Riga1" />
@@ -394,7 +393,7 @@
 </div>
 <div type="pagina" n="69">
 	<pb n="69" facs="#P69Intera" />
-	<!-- Inizio pagina -->
+	
 	<ab type="pericope" n="1" xml:id="Pag69Pericope1">
 		<lb xml:id="P69R1" n="1" facs="#P69Riga1" />
 					Dicono che abbia aderito al Comunismo perchè innamo-
@@ -462,11 +461,10 @@
 </body>
 
 <back>
-<!-- Appendice contentente elementi vari -->
+
 <div type="appendice">
 
 
-<!-- Riferimenti bibiografici -->
 <listBibl>
 	<bibl xml:id="GSLib" xml:lang="it">
 		<author ref="#GS">
