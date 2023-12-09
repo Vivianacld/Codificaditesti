@@ -15,19 +15,19 @@ body {
 
 /* Header */
 header {
-  background-color: #f9d8e8;
+  background-color: #04196d;
   padding: 20px;
   text-align: center;
 }
 
 /* Titolo nell'header */
 h1 {
-  color: #e65285;
+  color: #ffffff;
 }
 
 /* Navigazione */
 .navMenu {
-  background-color: #f9d8e8;
+  background-color: #270c61;
   display: flex;
   justify-content: space-around;
   padding: 10px;
@@ -43,13 +43,13 @@ h1 {
 }
 
 .navMenu ul li a {
-  color: #e65285;
+  color: #ffffff;
   text-decoration: none;
 }
 
 /* Contenitore principale */
 #info {
-  background-color: #f9f3f8;
+  background-color: #e0dfef;
   padding: 20px;
 }
 
@@ -92,7 +92,7 @@ article {
 
 gap{
   display: none;
-  background-color: #e65285;
+  background-color: #2829ac;
 }
 
 del{
@@ -106,7 +106,7 @@ add{
 }
 
 #info > article:nth-child(2) > ul > li:nth-child(1) > span{
-  background-color: #e65285;
+  background-color: #282ab0;
   margin-right: 5px;
 }
 
@@ -127,7 +127,7 @@ add{
 
 button {
     margin: 0.2rem;
-    background-color: #e65285;
+    background-color: #062380;
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
@@ -142,14 +142,14 @@ button {
 }
 /* Stili per i titoli */
 h2 {
-  color: #e65285;
+  color: #1f248c;
   margin-bottom: 10px;
   text-align: center;
 }
 
 /* Riferimenti alla fine della pagina */
 #append {
-  background-color: #f9d8e8;
+  background-color: #ebe8f2;
   padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
@@ -162,6 +162,6 @@ h2 {
 
 /* Stili per il titolo dei riferimenti */
 #about {
-  color: #e65285;
+  color: #270c61;
   margin-bottom: 10px;
 }
